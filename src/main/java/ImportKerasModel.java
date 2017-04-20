@@ -62,6 +62,8 @@ public class ImportKerasModel {
         // TODO get the tile number from result return it
         INDArray result1 = restored.output(fromjavaarray);
         System.out.println("Tile location is " + result1);
+        System.out.println("max element is " + result1.maxNumber() + "  " +Nd4j.argMax(result1));
+
         //return tile_number;
     }
 }

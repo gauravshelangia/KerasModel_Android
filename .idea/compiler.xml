@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="IDEAPROJECTS" />
+        <module name="KerrasModel_Android" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="IDEAPROJECTS" target="1.5" />
+      <module name="KerrasModel_Android" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
